@@ -99,6 +99,20 @@ body {
   font-size: 0.9rem;
 }
 
+.about-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bold-image {
+  margin-top: 1vh;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+
 
 /* // Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) { 
@@ -137,6 +151,10 @@ body {
   .logo {
     margin-bottom: 0vh;
     width: 80%;
+  }
+
+  .about-us {
+    margin-top: 10vh;
   }
 
   .about-card {
