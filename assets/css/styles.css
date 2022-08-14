@@ -138,7 +138,7 @@ body {
 }
 
 .about-us {
-  margin-top: 15vh;
+  margin-top: 10vh;
 }
 
 .about-content {
@@ -150,7 +150,7 @@ body {
 
 .about-card {
   background-color: #dcd8d4;
-  width: 70%;
+  width: 80%;
 
   padding: 30px;
 }
@@ -172,14 +172,53 @@ body {
 
 .bold-image {
   margin-top: 1vh;
-  font-size: 0.9rem;
+  font-size: 1.5rem;
   font-weight: 500;
+}
+
+.about-josy {
+  width: 50%;
 }
 
 /* // Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
   .button-navbar {
     margin: 0 0;
+  }
+
+  .about-josy {
+    width: 80%;
+  }
+
+  .navbar section {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+
+  .bold-image {
+    margin-top: 1vh;
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+
+  .about-card {
+    background-color: #dcd8d4;
+    width: 70%;
+  
+    padding: 30px;
+  }
+}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+  .button-navbar {
+    margin: 0 0;
+  }
+
+  .about-josy {
+    width: 80%;
   }
 
   .navbar section {
@@ -192,6 +231,12 @@ body {
 
 /* // Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
+  .about-card {
+    background-color: #dcd8d4;
+    width: 90%;
+
+    padding: 15px;
+  }
 }
 
 /* // Small devices (landscape phones, less than 768px) */
