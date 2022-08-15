@@ -255,7 +255,7 @@ body {
   align-items: center;
 
   color: #fff;
-  font-size: 3vw;
+  font-size: 48px;
   text-align: center;
   line-height: 100%;
 }
@@ -273,6 +273,62 @@ body {
   background-color: #e4c516;
   border-color: #e4c516;
   color: black;
+}
+
+.footer-row {
+  background-color: black;
+  height: 150px;
+
+  margin-top: 15vh;
+}
+
+.footer-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 24px;
+}
+
+.footer-col-last-child {
+  justify-content: flex-start;
+}
+
+.footer-col svg {
+  margin-right: 10px;
+}
+
+.footer-col a {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  transition: 0.2s;
+  font-size: 24px;
+}
+
+.footer-col a:hover {
+  color: gray;
+}
+
+.copyright-col {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center;
+  color: #fff;
+  font-size: 24px;
+}
+
+.copyright {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  transition: 0.2s;
+}
+
+.copyright:hover {
+  color: gray;
 }
 
 /* // Large devices (desktops, less than 1200px) */
@@ -330,6 +386,14 @@ body {
     justify-content: space-around;
     align-items: flex-start;
   }
+
+  .quadrado-service {
+    font-size: 32px;
+  }
+
+  .footer-col a {
+    font-size: 18px;
+  }
 }
 
 /* // Medium devices (tablets, less than 992px) */
@@ -343,6 +407,10 @@ body {
 
   .btn-contratar {
     width: 30%;
+  }
+
+  .footer-col a {
+    font-size: 14px;
   }
 }
 
@@ -374,6 +442,17 @@ body {
     width: 45%;
   }
   
+  .quadrado-service {
+    font-size: 24px;
+  }
+
+  .footer-col a {
+    font-size: 16px;
+  }
+
+  .footer-col-last-child {
+    justify-content: center;
+  }
 }
 
 /* // Extra small devices (portrait phones, less than 576px) */
@@ -392,10 +471,6 @@ body {
     width: 100%;
 
     padding: 10px;
-  }
-
-  .quadrado-service {
-    font-size: 5vw;
   }
 
   .btn-contratar {
