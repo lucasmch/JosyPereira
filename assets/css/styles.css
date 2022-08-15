@@ -168,7 +168,9 @@ body {
 }
 
 .about-description {
-  font-size: 0.9rem;
+  margin-top: 2vh;
+  font-size: 0.9em;
+  width: 50%;
 }
 
 .about-image {
