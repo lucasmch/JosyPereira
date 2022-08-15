@@ -180,6 +180,28 @@ body {
   width: 50%;
 }
 
+.col-title-service {
+  margin: 15vh 0 2vh;
+}
+
+.title-service {
+  text-align: center;
+}
+
+.row-service>* {
+  padding-right: calc(var(--bs-gutter-x) * .2) !important;
+  padding-left: calc(var(--bs-gutter-x) * .2) !important;
+  padding-bottom: calc(var(--bs-gutter-x) * .2) !important;
+  padding-top: calc(var(--bs-gutter-x) * .2) !important;
+}
+
+.col-service {
+}
+
+.logo-service {
+  width: 100%;
+}
+
 /* // Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
   .button-navbar {
