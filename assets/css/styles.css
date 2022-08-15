@@ -2,16 +2,16 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
-.preloader{
+#preloader{
   position: absolute;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
-  background: #1a237e;
+  background: #f0d64c;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,14 +19,14 @@ body {
   z-index: 1;
 }
 
-.preloader-container {
+#preloader-container {
   height: 15px;
   width: 105px;
   display: flex;
   position: relative;
 }
 
-.preloader-container .circle {
+#preloader-container .circle {
   width: 15px;
   height: 15px;
   border-radius: 50%;
@@ -35,14 +35,14 @@ body {
   margin-right: 30px;
 }
 
-.preloader-container .circle:first-child {
+#preloader-container .circle:first-child {
   position: absolute;
   top: 0;
   left: 0;
   animation: grow 500ms linear 0ms infinite;
 }
 
-.preloader-container .circle:last-child {
+#preloader-container .circle:last-child {
   position: absolute;
   top: 0;
   right: 0;
