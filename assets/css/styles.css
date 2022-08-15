@@ -258,6 +258,12 @@ body {
   font-size: 48px;
   text-align: center;
   line-height: 100%;
+
+  text-decoration: none;
+}
+
+.quadrado-service:hover {
+  color: gray;
 }
 
 .btn-contratar {
