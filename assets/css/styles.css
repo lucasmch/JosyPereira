@@ -137,14 +137,6 @@ body {
   width: 50%;
 }
 
-.about-pc {
-  display: flex;
-}
-
-.about-cell {
-  display: none;
-}
-
 .about-us {
   margin-top: 10vh;
 }
@@ -222,6 +214,10 @@ body {
     width: 80%;
   }
 
+  .about-description {
+    width: 80%;
+  }
+
   .navbar section {
     width: 50%;
     display: flex;
@@ -250,6 +246,10 @@ body {
   }
 
   .about-josy {
+    width: 80%;
+  }
+
+  .about-description {
     width: 80%;
   }
 
@@ -283,20 +283,15 @@ body {
     max-height: 1080px;
   }
 
-  .about-pc {
-    display: none;
-  }
-  
-  .about-cell {
-    display: flex;
-  }
-
   .about-description {
     margin-top: 4vh;
     width: 90%;
   }
 
   .about-josy {
+    width: 90%;
+  }
+  .about-description {
     width: 90%;
   }
 }
