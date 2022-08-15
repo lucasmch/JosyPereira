@@ -137,6 +137,14 @@ body {
   width: 50%;
 }
 
+.about-pc {
+  display: flex;
+}
+
+.about-cell {
+  display: none;
+}
+
 .about-us {
   margin-top: 10vh;
 }
@@ -272,6 +280,23 @@ body {
     height: 60vh;
     max-height: 1080px;
   }
+
+  .about-pc {
+    display: none;
+  }
+  
+  .about-cell {
+    display: flex;
+  }
+
+  .about-description {
+    margin-top: 4vh;
+    width: 90%;
+  }
+
+  .about-josy {
+    width: 90%;
+  }
 }
 
 /* // Extra small devices (portrait phones, less than 576px) */
@@ -290,10 +315,5 @@ body {
     width: 100%;
 
     padding: 10px;
-  }
-
-  .about-description {
-    font-size: 0.5rem;
-    line-height: -20px;
   }
 }
